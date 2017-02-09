@@ -3,7 +3,6 @@ description 'standard rails server with postgres as a database'
 
 run_list(
   %w(
-    recipe[dev_env]
     recipe[git]
     recipe[vim]
     recipe[gcc]
