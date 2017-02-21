@@ -1,6 +1,7 @@
 name 'rails_postgres'
 description 'standard rails server with postgres as a database'
 run_list %w(
+  recipe[ohmyzsh]
   recipe[git]
   recipe[vim]
   recipe[gcc]
