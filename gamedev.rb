@@ -5,5 +5,6 @@ run_list(
     recipe[npm::ubuntu]
     recipe[git::default]
     recipe[ohmyzsh::default]
+    recipe[nginx::reverse_proxy]
   )
 )
