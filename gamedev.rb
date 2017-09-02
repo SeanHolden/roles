@@ -6,5 +6,6 @@ run_list(
     recipe[git::default]
     recipe[ohmyzsh::default]
     recipe[nginx::reverse_proxy]
+    recipe[the_silver_searcher::default]
   )
 )
