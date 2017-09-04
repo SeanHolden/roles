@@ -8,6 +8,7 @@ run_list(
     recipe[vim::default]
     recipe[npm::ubuntu]
     recipe[nginx::reverse_proxy]
+    recipe[ssh::default]
   )
 )
-# TODO: ssh, dev_env
+# TODO: dev_env
