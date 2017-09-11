@@ -9,6 +9,6 @@ run_list(
     recipe[npm::ubuntu]
     recipe[nginx::reverse_proxy]
     recipe[ssh::default]
+    recipe[dev_env::default]
   )
 )
-# TODO: dev_env
